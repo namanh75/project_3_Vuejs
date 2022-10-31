@@ -1,0 +1,155 @@
+.m-content-table {
+    position: relative;
+    margin-left: 12px;
+    min-width: 900px;
+    box-sizing: border-box;
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.m-content-table table thead {
+    position: sticky;
+    top: 0;
+}
+
+.m-tr-active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.m-content-table table tr:hover {
+    background-color: #d7d5d5;
+}
+
+.m-table-tr-active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.m-content-table table input[type="checkbox"] {
+    filter: hue-rotate(300deg);
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+tr {
+    cursor: pointer;
+}
+
+td img {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+table tr td span {
+    cursor: pointer;
+}
+
+table tr td span img {
+    vertical-align: middle;
+}
+
+.m-content-table::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+.m-content-table::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    border-radius: 4px;
+}
+
+.m-content-table td {
+    height: 40px;
+    line-height: 40px;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #d7d5d5;
+    position: relative;
+    z-index: 50;
+}
+
+.m-content-table .m-content-table-column-1 {
+    width: calc(1 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.m-content-table .m-content-table-column-2 {
+    width: calc(2 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-3 {
+    width: calc(4 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-4 {
+    width: calc(2 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-5 {
+    width: calc(3 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-6 {
+    width: calc(2 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-7 {
+    width: calc(4 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-8 {
+    width: calc(2 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: center;
+}
+
+.m-content-table .m-content-table-column-9 {
+    width: calc(2 * var(--value-of-column));
+    border-right: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: center;
+}
+
+.m-content-table .m-content-table-column-10 {
+    width: calc(1.5 * var(--value-of-column));
+    border-bottom: 1px solid #b1b1b1;
+    text-align: center;
+}

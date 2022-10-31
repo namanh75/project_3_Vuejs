@@ -1,0 +1,169 @@
+.m-content-table {
+  position: relative;
+  margin-left: 12px;
+  min-width: 900px;
+  box-sizing: border-box;
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.m-content-table table thead {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.m-tr-active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.m-content-table table tr:hover {
+  background-color: #d7d5d5;
+}
+
+.m-table-tr-active {
+  border: 2px solid var(--main-color)
+}
+/* .m-content-table table input[type="checkbox"]:hover{
+  background-color: var(--main-color);
+} */
+.m-content-table table input[type="checkbox"] {
+  filter: hue-rotate(300deg);
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr {
+  cursor: pointer;
+}
+
+td img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.m-td-check{
+  width: 20%;
+  height: 50%;
+  background: url('../../../assets/icons/ic_Check.png');
+  background-repeat: no-repeat;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+table tr td span {
+  cursor: pointer;
+}
+.m-tr-background{
+  background-color: #d7d5d5;
+}
+
+table tr td span img {
+  vertical-align: middle;
+}
+
+.m-content-table::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+.m-content-table::-webkit-scrollbar-thumb {
+  background-color: #8f8f8f;
+  border-radius: 4px;
+}
+
+.m-content-table td {
+  height: 40px;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: #ffffff;
+}
+
+.m-content-table .m-content-table-column-1 {
+  width: calc(1 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.m-content-table .m-content-table-column-2 {
+  width: calc(2 * var(--value-of-column));
+  max-width: 100px;
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+  
+}
+
+.m-content-table .m-content-table-column-3 {
+  width: calc(4 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+}
+.m-content-table tbody .m-content-table-column-3{
+  color: var(--main-color);
+}
+
+.m-content-table .m-content-table-column-4 {
+  width: calc(2 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-5 {
+  width: calc(3 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-6 {
+  width: calc(2 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-7 {
+  width: calc(4 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.m-content-table .m-content-table-column-8 {
+  width: calc(2 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+}
+
+.m-content-table .m-content-table-column-9 {
+  width: calc(2 * var(--value-of-column));
+  border-right: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+}
+
+.m-content-table .m-content-table-column-10 {
+  width: calc(1.5 * var(--value-of-column));
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+}

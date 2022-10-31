@@ -1,0 +1,98 @@
+.m-menu-container {
+    width: 220px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    background-color: #24344B;
+    color: var(--white-color);
+    height: 100vh;
+    transition: all 0.3s;
+}
+
+.m-menu-mini-container {
+    width: 70px;
+    transition: all 0.3s;
+}
+
+.m-menu-mini-container .m-menu-title-left {
+    display: none;
+}
+
+.m-menu-mini-container .m-menu-title-center {
+    display: none;
+}
+
+.m-menu-mini-container .m-menu-title-right {
+    left: 50%;
+    transform: translateX(-25%);
+}
+
+.m-menu-mini-container .m-menu-navbar .m-menu-item p {
+    display: none;
+}
+
+.m-menu-mini-container .m-menu-navbar .m-menu-item:nth-child(1) {
+    margin-top: 25px;
+}
+
+/* menu title */
+.m-menu-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.m-menu-container .m-menu-title-left {
+    background: url('../../assets/icons/ic_ThietBi.svg');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.m-menu-container .m-menu-title-center {
+    font-size: 16px;
+}
+
+.m-menu-container .m-menu-title-right {
+    color: var(--white-color);
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+/* navbar */
+.m-menu-navbar {
+    padding-top: 8px;
+}
+
+.m-menu-item {
+    display: flex;
+    padding-left: 12px;
+    align-items: center;
+    border-left: 3px solid rgba(255, 255, 255, 0.0);
+}
+
+.m-menu-item:active {
+    border-left: 3px var(--main-color) solid !important;
+    background-color: rgba(239, 239, 239, 0.25);
+}
+.m-menu-item-active{
+    border-left: 3px var(--main-color) solid;
+    background-color: rgba(239, 239, 239, 0.25);
+}   
+
+.m-menu-item:hover {
+    cursor: pointer;
+    background-color: rgba(239, 239, 239, 0.25);
+    
+}
+
+.m-menu-item span {
+    margin-right: 8px;
+
+}
